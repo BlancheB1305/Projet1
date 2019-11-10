@@ -1,29 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 3.2.0.1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Nov 01, 2016 at 01:56 PM
--- Server version: 5.1.36
--- PHP Version: 5.3.0
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `payroll`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `deductions`
---
 
 CREATE TABLE IF NOT EXISTS `deductions` (
   `deduction_id` int(5) NOT NULL AUTO_INCREMENT,
